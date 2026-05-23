@@ -1,0 +1,21 @@
+{
+  "item.thermies_tinkering.hardblood_ingot": "Hemobar",
+  "item.thermies_tinkering.hardblood_nugget": "Hemobite",
+
+  "block.thermies_tinkering.hardblood_block": "Hemofeast",
+
+  "modifier.thermies_tinkering.bloodthirsty": "Bloodthirsty",
+  "modifier.thermies_tinkering.bloodthirsty.description": "Killing monster grants stacking movement and attack speed",
+
+  "modifier.tconstruct.bloodthirsty.stacks": "Bloodthirsty Stacks",
+
+  "effect.tconstruct.bloodthirsty_melee": "Bloodthirsty",
+
+
+  "material.thermies_tinkering.hardblood": "Hardblood",
+  "material.thermies_tinkering.hardblood.flavor": "Sanguine steel. Made by a Hellblood vampire, probably.",
+  "material.thermies_tinkering.hardblood.encyclopedia": "NEED DESCRIPTION",
+  "material.thermies_tinkering.hardblood.armor": "NEED DESCRIPTION",
+
+  "creativetab.thermies_things": "Thermie's Things"
+}
