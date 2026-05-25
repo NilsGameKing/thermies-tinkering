@@ -1,11 +1,18 @@
 {
   "item.thermies_tinkering.hardblood_ingot": "Hemobar",
   "item.thermies_tinkering.hardblood_nugget": "Hemobite",
+  "item.thermies_tinkering.bottle_of_sanguine": "Bloodfeast Bottle",
+  "item.thermies_tinkering.sanguine_bucket": "Sanguine Bucket",
 
   "block.thermies_tinkering.hardblood_block": "Hemofeast",
 
+  "fluid.tconstruct.sanguine": "Sanguine",
+  "fluid.thermies_tinkering.sanguine": "Sanguine",
+  "fluid.thermies_tinkering.sanguine.fluid_effect": "Exsanguinate foes with piercing attacks that inflict bleed",
+
   "modifier.thermies_tinkering.bloodthirsty": "Bloodthirsty",
-  "modifier.thermies_tinkering.bloodthirsty.description": "Killing monster grants stacking movement and attack speed",
+  "modifier.thermies_tinkering.bloodthirsty.flavor": "... You are a sinner, nothing more.",
+  "modifier.thermies_tinkering.bloodthirsty.description": "Killing monsters grants stacking movement, and eventually buffs",
 
   "modifier.tconstruct.bloodthirsty.stacks": "Bloodthirsty Stacks",
 
@@ -14,8 +21,7 @@
 
   "material.thermies_tinkering.hardblood": "Hardblood",
   "material.thermies_tinkering.hardblood.flavor": "Sanguine steel. Made by a Hellblood vampire, probably.",
-  "material.thermies_tinkering.hardblood.encyclopedia": "NEED DESCRIPTION",
-  "material.thermies_tinkering.hardblood.armor": "NEED DESCRIPTION",
+  "material.thermies_tinkering.hardblood.encyclopedia": "Kill enemies to gain bloodthirsty stacks, gain 2% speed per stack. At 50 stacks, consume all stacks to gain regeneration and saturation.",
 
   "creativetab.thermies_things": "Thermie's Things"
 }

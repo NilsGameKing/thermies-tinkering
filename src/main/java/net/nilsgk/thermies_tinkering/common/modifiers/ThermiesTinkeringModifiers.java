@@ -19,6 +19,6 @@ public class ThermiesTinkeringModifiers extends TinkerModule {
 
     public static final EnumObject<ToolType, TinkerEffect> bloodthirstyEffect = MOB_EFFECTS.registerEnum("bloodthirsty", new ToolType[]{ToolType.MELEE}, type ->
             new NoMilkEffect(MobEffectCategory.BENEFICIAL, 0xf72d29, true)
-                    .addAttributeModifier(Attributes.MOVEMENT_SPEED, "6dd33723-fa16-4517-882b-ebc63b7a262b", 0.05, AttributeModifier.Operation.MULTIPLY_BASE));
+                    .addAttributeModifier(Attributes.MOVEMENT_SPEED, "6dd33723-fa16-4517-882b-ebc63b7a262b", 0.02, AttributeModifier.Operation.MULTIPLY_BASE));
 
 }

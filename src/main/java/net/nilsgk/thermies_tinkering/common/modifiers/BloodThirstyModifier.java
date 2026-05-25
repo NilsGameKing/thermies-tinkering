@@ -26,7 +26,9 @@ import slimeknights.tconstruct.library.tools.context.ToolAttackContext;
 import slimeknights.tconstruct.library.tools.nbt.IToolStackView;
 import slimeknights.tconstruct.library.tools.stat.FloatToolStat;
 import slimeknights.tconstruct.library.tools.stat.ToolStats;
+import slimeknights.tconstruct.shared.TinkerEffects;
 import slimeknights.tconstruct.tools.TinkerModifiers;
+import slimeknights.tconstruct.tools.modifiers.effect.BleedingEffect;
 import slimeknights.tconstruct.tools.stats.ToolType;
 
 import java.util.List;
@@ -38,7 +40,7 @@ public class BloodThirstyModifier extends Modifier implements MeleeHitModifierHo
     public static void applyEffect(LivingEntity living, ToolType type, int duration, int add, int maxLevel) {
         TinkerEffect effect = ThermiesTinkeringModifiers.bloodthirstyEffect.get(type);
         effect.apply(living, duration, Math.min(maxLevel, TinkerEffect.getAmplifier(living,effect) + add), true);
-        if(TinkerEffect.getAmplifier(living,effect) >= 39){
+        if(TinkerEffect.getAmplifier(living,effect) >= 49){
             living.removeEffect(effect);
             living.addEffect(new MobEffectInstance(MobEffects.REGENERATION, 8 * 20, 2));
             living.addEffect(new MobEffectInstance(MobEffects.SATURATION, 8 * 20, 2));
@@ -55,7 +57,10 @@ public class BloodThirstyModifier extends Modifier implements MeleeHitModifierHo
     @Override
     public void afterMeleeHit(IToolStackView tool, ModifierEntry modifier, ToolAttackContext context, float damageDealt) {
         if (context.getLivingTarget().isDeadOrDying()) {
-            applyEffect(context.getAttacker(), ToolType.MELEE, 5 * 20, 1 * modifier.getLevel(),  39);
+            applyEffect(context.getAttacker(), ToolType.MELEE, 5 * 20, 1 * modifier.getLevel(),  49);
+        }
+        if (context.getLivingTarget().hasEffect(TinkerEffects.bleeding.get())) {
+            applyEffect(context.getAttacker(), ToolType.MELEE, 5 * 20, 1,  49);
         }
     }
 

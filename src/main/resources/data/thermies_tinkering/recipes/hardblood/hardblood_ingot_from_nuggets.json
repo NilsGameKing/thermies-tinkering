@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "group": "tconstruct:cobalt_block",
+  "key": {
+    "#": {
+      "tag": "thermies_tinkering:hardblood_nugget"
+    }
+  },
+  "pattern": [
+    "###",
+    "###",
+    "###"
+  ],
+  "result": {
+    "item": "thermies_tinkering:hardblood_ingot"
+  },
+  "show_notification": true
+}

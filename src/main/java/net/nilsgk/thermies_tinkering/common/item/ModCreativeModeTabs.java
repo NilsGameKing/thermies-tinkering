@@ -11,6 +11,7 @@ import net.minecraftforge.registries.ForgeRegistries;
 import net.minecraftforge.registries.RegistryObject;
 import net.nilsgk.thermies_tinkering.ThermiesTinkering;
 import net.nilsgk.thermies_tinkering.common.block.ModBlocks;
+import net.nilsgk.thermies_tinkering.common.fluids.ModFluids;
 
 public class ModCreativeModeTabs {
     public static final DeferredRegister<CreativeModeTab> CREATIVE_MODE_TABS =
@@ -23,6 +24,8 @@ public class ModCreativeModeTabs {
                         pOutput.accept(ModItems.HARDBLOOD_INGOT.get());
                         pOutput.accept(ModItems.HARDBLOOD_NUGGET.get());
                         pOutput.accept(ModBlocks.HARDBLOOD_BLOCK.get());
+                        pOutput.accept(ModItems.BOTTLE_OF_SANGUINE.get());
+                        pOutput.accept(ModFluids.SANGUINE.getBucket());
                     })
                     .build());
 

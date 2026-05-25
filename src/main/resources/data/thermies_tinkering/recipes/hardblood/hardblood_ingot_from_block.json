@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "group": "tconstruct:cobalt_ingot",
+  "ingredients": [
+    {
+      "item": "thermies_tinkering:hardblood_block"
+    }
+  ],
+  "result": {
+    "count": 9,
+    "item": "thermies_tinkering:hardblood_ingot"
+  }
+}

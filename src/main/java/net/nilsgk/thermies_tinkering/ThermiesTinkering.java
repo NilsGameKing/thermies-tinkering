@@ -14,6 +14,7 @@ import net.minecraftforge.fml.event.lifecycle.FMLClientSetupEvent;
 import net.minecraftforge.fml.event.lifecycle.FMLCommonSetupEvent;
 import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;
 import net.nilsgk.thermies_tinkering.common.block.ModBlocks;
+import net.nilsgk.thermies_tinkering.common.fluids.ModFluids;
 import net.nilsgk.thermies_tinkering.common.item.ModCreativeModeTabs;
 import net.nilsgk.thermies_tinkering.common.item.ModItems;
 import net.nilsgk.thermies_tinkering.common.modifiers.ThermiesTinkeringModifiers;
@@ -36,6 +37,7 @@ public class ThermiesTinkering
 
         ModItems.register(modEventBus);
         ModBlocks.register(modEventBus);
+        ModFluids.register(modEventBus);
 
         ThermiesTinkeringModifiers.MODIFERS.register(modEventBus);
 

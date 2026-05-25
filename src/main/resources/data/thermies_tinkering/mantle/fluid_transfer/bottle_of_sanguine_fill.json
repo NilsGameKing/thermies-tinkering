@@ -1,0 +1,11 @@
+{
+  "type": "mantle:fill_item",
+  "fluid": {
+    "amount": 250,
+    "tag": "thermies_tinkering:sanguine"
+  },
+  "input": {
+    "item": "minecraft:glass_bottle"
+  },
+  "result": "thermies_tinkering:bottle_of_sanguine"
+}

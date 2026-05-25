@@ -1,0 +1,47 @@
+{
+  "block_effects": [
+    {
+      "type": "tconstruct:mob_effect_cloud",
+      "effects": [
+        {
+          "effect": "tconstruct:bleeding",
+          "level": 1,
+          "time": 100
+        },
+        {
+          "effect": "tconstruct:pierce",
+          "level": 1,
+          "time": 100
+        }
+      ]
+    }
+  ],
+  "entity_effects": [
+    {
+      "type": "tconstruct:damage",
+      "damage": 2.0,
+      "damage_type": {
+        "melee": "tconstruct:fluid_spike_melee",
+        "ranged": "tconstruct:fluid_spike_ranged"
+      }
+    },
+    {
+      "type": "tconstruct:mob_effect",
+      "action": "set",
+      "effect": "tconstruct:bleeding",
+      "level": 1,
+      "time": 100
+    },
+    {
+      "type": "tconstruct:mob_effect",
+      "action": "set",
+      "effect": "tconstruct:pierce",
+      "level": 1,
+      "time": 100
+    }
+  ],
+  "fluid": {
+    "amount": 90,
+    "tag": "thermies_tinkering:sanguine"
+  }
+}

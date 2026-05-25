@@ -1,0 +1,8 @@
+{
+  "loader": "mantle:item_layer",
+  "parent": "forge:item/default",
+  "textures": {
+    "layer0": "thermies_tinkering:item/bottle_of_sanguine"
+  },
+  "layers": [{ "luminosity": 13 }]
+}
