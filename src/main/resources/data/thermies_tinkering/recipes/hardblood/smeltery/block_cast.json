@@ -1,0 +1,9 @@
+{
+  "type": "tconstruct:casting_basin",
+  "fluid": {
+    "fluid": "thermies_tinkering:sanguine",
+    "amount": 810
+  },
+  "result": "thermies_tinkering:hardblood_block",
+  "cooling_time": 400
+}

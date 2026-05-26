@@ -1,0 +1,10 @@
+{
+  "type": "tconstruct:melting",
+  "ingredient": { "item": "thermies_tinkering:sanguine_poppy" },
+  "result": {
+    "fluid": "thermies_tinkering:sanguine",
+    "amount": 90
+  },
+  "temperature": 1100,
+  "time": 10
+}

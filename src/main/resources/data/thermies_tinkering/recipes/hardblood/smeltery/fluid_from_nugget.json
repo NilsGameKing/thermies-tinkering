@@ -1,0 +1,10 @@
+{
+  "type": "tconstruct:melting",
+  "ingredient": { "item": "thermies_tinkering:hardblood_nugget" },
+  "result": {
+    "fluid": "thermies_tinkering:sanguine",
+    "amount": 10
+  },
+  "temperature": 1100,
+  "time": 25
+}

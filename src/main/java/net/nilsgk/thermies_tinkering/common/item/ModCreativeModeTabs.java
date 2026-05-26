@@ -24,6 +24,7 @@ public class ModCreativeModeTabs {
                         pOutput.accept(ModItems.HARDBLOOD_INGOT.get());
                         pOutput.accept(ModItems.HARDBLOOD_NUGGET.get());
                         pOutput.accept(ModBlocks.HARDBLOOD_BLOCK.get());
+                        pOutput.accept(ModBlocks.SANGUINE_POPPY.get());
                         pOutput.accept(ModItems.BOTTLE_OF_SANGUINE.get());
                         pOutput.accept(ModFluids.SANGUINE.getBucket());
                     })

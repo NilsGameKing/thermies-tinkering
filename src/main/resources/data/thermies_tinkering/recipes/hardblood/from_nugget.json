@@ -1,0 +1,7 @@
+{
+  "type": "tconstruct:material",
+  "ingredient": { "item": "thermies_tinkering:hardblood_nugget" },
+  "value": 1,
+  "needed": 9,
+  "material": "thermies_tinkering:hardblood"
+}

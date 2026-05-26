@@ -1,0 +1,10 @@
+{
+  "type": "tconstruct:material_fluid",
+  "input": "tconstruct:iron",
+  "fluid": {
+    "fluid": "thermies_tinkering:sanguine",
+    "amount": 90
+  },
+  "temperature": 1100,
+  "output": "thermies_tinkering:hardblood"
+}

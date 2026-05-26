@@ -1,0 +1,10 @@
+{
+  "type": "tconstruct:melting",
+  "ingredient": { "item": "thermies_tinkering:hardblood_block" },
+  "result": {
+    "fluid": "thermies_tinkering:sanguine",
+    "amount": 810
+  },
+  "temperature": 1100,
+  "time": 400
+}

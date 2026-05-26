@@ -1,0 +1,9 @@
+{
+  "type": "tconstruct:material_melting",
+  "input": "thermies_tinkering:hardblood",
+  "temperature": 1100,
+  "result": {
+    "fluid": "thermies_tinkering:sanguine",
+    "amount": 90
+  }
+}
